@@ -87,7 +87,7 @@ react的diff算法用在什么地方呢？当组件更新的时候，react会创
 **组件在初始化时会触发5个钩子函数：**
 
   **1、getDefaultProps()** 
-> 设置默认的props，也可以用dufaultProps设置组件的默认属性。
+> 设置默认的props，也可以用defaultProps设置组件的默认属性。
 
 
   **2、getInitialState()**  
