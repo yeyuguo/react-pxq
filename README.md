@@ -109,7 +109,7 @@ react的diff算法用在什么地方呢？当组件更新的时候，react会创
 **在更新时也会触发5个钩子函数：**
 
   **6、componentWillReceiveProps(nextProps)**
-> 组件初始化时不调用，组件接受新的props时调用。
+> 组件初始化时不调用，组件接受新的props时调用。props 是否改变，该声明周期都会执行一次
 
 
   **7、shouldComponentUpdate(nextProps, nextState)** 
